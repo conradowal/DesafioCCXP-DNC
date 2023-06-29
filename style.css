@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+}
+
+#logo{
+    padding: 20px;
+    margin-left: 30px;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 20px;
+    
+}
+
+h1{
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+#main01{
+    background-color: #514988;
+    
+}
+
+#main01 h1{
+    color: #FFD900;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+#main01 h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#main01 p{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0 5% 0;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+section img{
+    width: 160px;
+    
+}
+
+button{
+    background-color: #514988;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    padding: 30px 60px 30px 60px;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;  
+}
+
+section h2{
+    color: #FFD900;
+    font-size: 22px;
+    margin: 20px 20px 20px;
+}
+
+#card01{
+   
+    text-align: center;
+}
+
+video{
+    padding: 10px;
+}
+
+.tituloCount{
+    color: #E33881;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px 5px #2e272e88;
+    
+}
+
+#cartao01:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+#cartao02:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+#cartao03:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+#cartao04:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
